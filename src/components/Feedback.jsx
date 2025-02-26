@@ -12,7 +12,7 @@ const Feedback = () => {
         if(value.trim().length < 3) errorMessage = 'Name must be at least 3 characters';
         break;
       case 'email':
-        if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) errorMessage ='Invalid email address';
+        if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) errorMessage ='Invalid email format';
         break;
       case 'password':
         if(value.length < 6) errorMessage = 'Password must be at least 6 characters';
