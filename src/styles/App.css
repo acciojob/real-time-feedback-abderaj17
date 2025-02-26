@@ -27,9 +27,12 @@ margin: 10px;
 }
 button{
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
     /* border: 1px solid blue; */
     background-color: rgb(148, 148, 220);
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
+}
+p{
+    color: red;
 }
