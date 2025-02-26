@@ -1,1 +1,35 @@
 
+@import "tailwindcss";
+
+body{
+    background-color: rgb(17, 18, 18);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    height: auto;
+    margin-top: 30px;
+    width: 300px;
+    background-color: gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+form{
+    margin: 15px;
+    align-items: center;
+}
+label input{
+background-color: white;
+border-radius:4px;
+margin: 10px;
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    /* border: 1px solid blue; */
+    background-color: rgb(148, 148, 220);
+    border-radius: 5px;
+    cursor: pointer;
+}
